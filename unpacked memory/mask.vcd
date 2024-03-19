@@ -1,0 +1,40 @@
+$date
+	Fri Aug 18 03:28:54 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bitmask_tb $end
+$var wire 32 ! r_data_tb [31:0] $end
+$var reg 8 " addr_tb [7:0] $end
+$var reg 1 # c_en_tb $end
+$var reg 32 $ data_tb [31:0] $end
+$var reg 1 % wr_tb $end
+$var reg 32 & wrmask_tb [31:0] $end
+$scope module uut $end
+$var wire 8 ' addr [7:0] $end
+$var wire 1 # c_en $end
+$var wire 32 ( data [31:0] $end
+$var wire 1 % wr $end
+$var wire 32 ) wrmask [31:0] $end
+$var reg 32 * r_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11010000000000000000000000000000 *
+b11110000000000000000000000000000 )
+b11011010000000000000000000000000 (
+b100000 '
+b11110000000000000000000000000000 &
+1%
+b11011010000000000000000000000000 $
+1#
+b100000 "
+b11010000000000000000000000000000 !
+$end
+#5

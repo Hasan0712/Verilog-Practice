@@ -1,0 +1,111 @@
+$date
+	Thu Aug 24 16:20:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tx_rx_tb $end
+$var reg 1 ! busy $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 1 $ tx $end
+$scope module u_top0 $end
+$var wire 1 ! busy $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 1 $ tx $end
+$var wire 1 % valido $end
+$var wire 1 & readyi $end
+$var wire 4 ' datao [3:0] $end
+$scope module u_rx1 $end
+$var wire 1 ! busy $end
+$var wire 1 " clk $end
+$var wire 1 ( rst $end
+$var wire 1 % validi $end
+$var wire 4 ) datai [3:0] $end
+$var reg 1 & readyo $end
+$var reg 4 * rx [3:0] $end
+$upscope $end
+$scope module u_tx1 $end
+$var wire 1 " clk $end
+$var wire 1 & readyi $end
+$var wire 1 # rst $end
+$var wire 1 $ tx $end
+$var reg 4 + datao [3:0] $end
+$var reg 2 , nextstate [1:0] $end
+$var reg 2 - state [1:0] $end
+$var reg 1 % valido $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+bx +
+bx *
+bx )
+z(
+bx '
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10000
+0&
+b0 ,
+0$
+1!
+0#
+1"
+#15000
+0"
+#20000
+0%
+b1 ,
+b0 -
+1"
+1#
+#25000
+0"
+#30000
+b1 -
+1"
+0#
+#35000
+0"
+#40000
+b10 ,
+1"
+1$
+#45000
+0"
+#50000
+b1111 '
+b1111 )
+b1111 +
+1%
+b10 -
+b1 ,
+1"
+0$
+#55000
+0"
+#60000
+0%
+1&
+b1 -
+1"
+0!
+#65000
+0"
+#70000
+b1111 *
+1"
